@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="follow_your_dream">Follow your dream</string>
+    <string name="be_positive">Be positive</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="follow_fragment"> Follow fragment</string>
+    <string name="positive">Positive fragment</string>
+</resources>
