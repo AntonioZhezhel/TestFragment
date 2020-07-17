@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PositiveFragment"
     android:background="#225544">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/positive"
-        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/buttonPositive"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:background="#00000000"
+        android:onClick="openFollowFragment"
+        android:text="@string/be_positive"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:targetApi="lollipop"
+        tools:ignore="OnClick" />
 
-</FrameLayout>
+
+</RelativeLayout>
